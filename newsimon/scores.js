@@ -4,7 +4,7 @@ function loadScores() {
   if (scoresText) {
     scores = JSON.parse(scoresText);
   }
-
+//first checks the storage to see if theres data
   const tableBodyEl = document.querySelector('#scores');
 
   if (scores.length) {
@@ -30,6 +30,8 @@ function loadScores() {
   } else {
     tableBodyEl.innerHTML = '<tr><td colSpan=4>Be the first to score</td></tr>';
   }
+  //if there is data then the function creates a table with the scores, if there is no data it tells you to be the first one to set the score 
 }
 
 loadScores();
+//its loads the table with the data
