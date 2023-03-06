@@ -32,6 +32,7 @@ class Button {
       this.sound.play();
     });
   }
+  //when button is pushed it changes color for a brief second and makes a noise, making a slight change with the code so apple users can run it
 }
 
 class Game {
@@ -40,7 +41,7 @@ class Game {
   sequence;
   playerPlaybackPos;
   mistakeSound;
-
+//manages the game logic of saving the colors and pressing the buttons
   constructor() {
     this.buttons = new Map();
     this.allowPlayer = false;
@@ -125,7 +126,7 @@ class Game {
     let buttons = Array.from(this.buttons.values());
     return buttons[Math.floor(Math.random() * this.buttons.size)];
   }
-
+//also manages saving the players score
   saveScore(score) {
     const userName = this.getPlayerName();
     let scores = [];
@@ -172,7 +173,7 @@ function delay(milliseconds) {
     }, milliseconds);
   });
 }
-
+//it waits a certain amount of time and loads the sounds files
 function loadSound(filename) {
   return new Audio('assets/' + filename);
 }
