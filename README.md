@@ -1,3 +1,5 @@
-# simon-css
+Simon Js
+Notes for the project cause I was losing points for adding the notes to the startup readme
 
-This application deliverable demonstrates the use of basic CSS for styling and a responsive design.
+
+updated html link
