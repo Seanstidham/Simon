@@ -1,5 +1,3 @@
-# simon-javascript
+# simon-login
 
-This deliverable demonstrates the use of basic JavaScript for interactivity.
-
-Javascript notes test
+This deliverable demonstrates authenticating users and storing credentials and authentication tokens in MongoDB.
