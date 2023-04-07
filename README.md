@@ -1,3 +1,3 @@
-# simon-login
+# simon-react
 
-This deliverable demonstrates authenticating users and storing credentials and authentication tokens in MongoDB.
+This deliverable demonstrates using a web framework.
